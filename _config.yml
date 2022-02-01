@@ -1,0 +1,119 @@
+# Fuse Core Theme for Jekyll - Settings
+# https://github.com/tsjensen/fuse-core
+
+markdown: kramdown
+permalink: pretty
+exclude: ['README.*', 'LICENSE.txt']
+sass:
+    style: expanded
+
+
+# CAUTION
+# When modifying this file, take care to preserve the indentation. This is YAML ...
+
+# Main Headline, name required, subtitle optional
+name: ChaseDream
+#subtitle:
+subtitle: 姑且算个技术宅，永远喜欢任天堂
+
+# Title attribute of HTML Page, uses 'name' from above if empty
+title: CD's Page
+
+# Information for web crawlers / Google, all of them optional
+# 'description' and 'keywords' simply set the corresponding meta tags,
+# 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
+robots:
+    description: One line of text describing the content of the page in less than 140 characters.
+    keywords: foo, bar, baz
+    crawl: index,follow
+
+# website address when deployed, also given as canonical link
+url: https://chasedre.am/
+
+# The 'baseurl' is prepended to all website-internal links.
+# 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
+# If not empty, be careful to keep the leading slash, and don't add a slash at the end.
+baseurl: ''
+#baseurl: '/fuse-core'
+
+# Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
+# In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
+# Also, some places require you to anonymize the users' IPs, which can be enabled via 'anonymizeip' below. You normally want that.
+# https://support.google.com/analytics/answer/2763052
+#ga:
+#ga:
+#    account: 'UA-120960520-1'
+#    cookieconsent: true
+#    anonymizeip: true
+
+# Plausible.io Analytics (alternative to Google Analytics that does not need cookies -> no cookie consent required)
+# A config setting is required in plausible to enable tracking of the outbound links. Details described here:
+# https://plausible.io/docs/outbound-link-click-tracking
+# Leave empty (just "plausible:" with subitems commented out) to disable.
+#plausible:
+#plausible:
+    #domain: 'tsjensen.github.io'
+
+
+# A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
+# Leave empty for generic placeholder image.
+# You can use your GitHub image:
+#avatar: "https://avatars0.githubusercontent.com/u/8897534"
+avatar: "images/avatar.jpg"
+#avatar:
+
+
+# All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
+# The order of this list controls the order of the links on the page. Feel free to add.
+links:
+  - twitter:
+      name: Twitter
+      show: false
+      href: https://twitter.com/chasedream1129
+      icon: fab fa-twitter
+  - steam:
+      name: Steam
+      show: false
+      href: http://steamcommunity.com/id/chasedream1129
+      icon: fab fa-steam
+  - telegram:
+      name: Telegram
+      show: true
+      href: https://t.me/chasedream1129
+      icon: fab fa-telegram-plane
+  - mastodon:
+      name: Mastodon
+      show: true
+      href: https://monado.ren/@chasedream1129
+      icon: fab fa-mastodon
+  - github:
+      name: GitHub
+      show: true
+      href: https://github.com/chasedream1129
+      icon: fab fa-github
+  - blog:
+      name: Blog
+      show: true
+      href: http://blog.chasedre.am
+      #icon: fas fa-book-open
+      icon: fas fa-pen-fancy
+  - email:
+      name: Email
+      show: true
+      href: mailto:1129chasedream@gmail.com
+      icon: fas fa-envelope
+  #- publickey:
+      #name: PGP Key
+      #show: true
+      #href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
+      #icon: fas fa-key
+
+
+# Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
+extra_html: 游戏 | 任天堂 | A-SOUL | Linux | 折腾
+            <br><a href="https://space.bilibili.com/672328094">关注嘉然，顿顿解馋</a>
+#extra_html: >
+    #Any (multiline) text containing simple HTML,
+    #such as links or ... lorem ipsum.
+
+#EOF
