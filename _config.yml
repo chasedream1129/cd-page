@@ -112,6 +112,7 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 extra_html: 游戏 | 任天堂 | A-SOUL | Linux | 折腾
             <br><a href="https://space.bilibili.com/672328094">关注嘉然，顿顿解馋</a>
+            <br><a href="https://monado.ren">多多支持Monado</a>
 #extra_html: >
     #Any (multiline) text containing simple HTML,
     #such as links or ... lorem ipsum.
